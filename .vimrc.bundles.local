@@ -1,0 +1,9 @@
+" Bundles {
+    UnBundle 'vim-sneak'
+    Bundle 'marijnh/tern_for_vim'
+    Bundle 'vim-scripts/vim-auto-save'
+    Bundle 'lukaszkorecki/CoffeeTags'
+    Bundle 'moll/vim-node'
+    Bundle 'vim-scripts/bufexplorer.zip'
+    Bundle 'mklabs/grunt.vim'
+"}

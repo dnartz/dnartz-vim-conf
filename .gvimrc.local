@@ -1,0 +1,11 @@
+"General {
+    "关闭滚动条
+    :set guioptions-=r  "remove right-hand scroll bar
+    :set guioptions-=L  "remove left-hand scroll bar
+
+    "隐藏菜单
+    :set guioptions-=m"
+
+    "设置Gvim字体
+    :set guifont=Inconsolata\ 12
+"}

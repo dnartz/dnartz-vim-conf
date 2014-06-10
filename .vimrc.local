@@ -1,0 +1,52 @@
+"General {
+    "开启自动换行
+    set wrap
+    set linebreak
+
+    " 关闭不必要的重绘
+    set lazyredraw
+
+    "显示相对行号
+    set relativenumber
+
+    "启用自动保存
+    let g:auto_save_no_updatetime = 0
+
+    "关闭拼写检查
+    set nospell
+
+    "Right line margin
+    set colorcolumn=80
+
+    " 默认不用代码折叠
+    set foldlevel=9
+
+    " 简化调整窗口大小
+    map <leader>`- <C-W>- " 垂直变小
+    map <leader>`= <C-W>+ " 垂直变大
+    map <leader>- <C-W>< " 水平变小
+    map <leader>= <C-W>> " 水平变大
+    map <leader>[ <C-W>= " equal
+    map <leader>] <C-W>_ " fill screen
+
+    " TODO: 打开上次开启的文件
+"}
+
+"CoffeeTags {
+    let g:CoffeeAutoDisabled       = 0        " Disables autotaging on save (Default: 0 [false])
+    let g:CoffeeAutoTagFile        = './tags'       " Name of the generated tag file (Default: ./tags)
+    let g:CoffeeAutoTagIncludeVars = 1  " Includes variables (Default: 0 [false])
+    let g:CoffeeAutoTagTagRelative = 1  " Sets file names to the relative path from the tag file location to the tag file location (Default: 1 [true])
+"}
+
+"bufExplorer {
+    let g:bufExplorerHorzSize=5
+    let g:bufExplorerVertSize=5
+" }
+
+"NERDTree {
+    " 让NERDTree显示隐藏文件
+    let NERDTreeShowHidden = 1
+    " 打开文件时不关闭NERDTree
+    let NERDTreeQuitOnOpen = 0
+"}
