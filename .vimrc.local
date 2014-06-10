@@ -49,4 +49,6 @@
     let NERDTreeShowHidden = 1
     " 打开文件时不关闭NERDTree
     let NERDTreeQuitOnOpen = 0
+    " 打开Vim时自动开启
+    autocmd VimEnter * NERDTree
 "}
